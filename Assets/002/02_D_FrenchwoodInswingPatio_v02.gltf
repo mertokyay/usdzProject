@@ -371,9 +371,6 @@
       "uri": "02_D_Exterior_normal.png"
     },
     {
-      "uri": "02_D_Exterior_emissive.png"
-    },
-    {
       "uri": "02_D_Glass_baseColor.png"
     },
     {
@@ -381,9 +378,6 @@
     },
     {
       "uri": "02_D_Glass_normal.png"
-    },
-    {
-      "uri": "02_D_Glass_emissive.png"
     },
     {
       "uri": "02_D_Hardware_baseColor.png"
@@ -395,9 +389,6 @@
       "uri": "02_D_Hardware_normal.png"
     },
     {
-      "uri": "02_D_Hardware_emissive.png"
-    },
-    {
       "uri": "02_D_Interior_baseColor.png"
     },
     {
@@ -405,9 +396,6 @@
     },
     {
       "uri": "02_D_Interior_normal.png"
-    },
-    {
-      "uri": "02_D_Interior_emissive.png"
     },
     {
       "uri": "02_D_Sill_baseColor.png"
@@ -419,9 +407,6 @@
       "uri": "02_D_Sill_normal.png"
     },
     {
-      "uri": "02_D_Sill_emissive.png"
-    },
-    {
       "uri": "02_D_Spacers_baseColor.png"
     },
     {
@@ -429,22 +414,11 @@
     },
     {
       "uri": "02_D_Spacers_normal.png"
-    },
-    {
-      "uri": "02_D_Spacers_emissive.png"
     }
   ],
   "materials": [
     {
       "alphaMode": "OPAQUE",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 3
-      },
       "name": "02_D_Exterior",
       "normalTexture": {
         "index": 2
@@ -463,67 +437,61 @@
     },
     {
       "alphaMode": "BLEND",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 7
-      },
       "name": "02_D_Glass",
       "normalTexture": {
-        "index": 6
-      },
-      "occlusionTexture": {
         "index": 5
       },
+      "occlusionTexture": {
+        "index": 4
+      },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 4
+          "index": 3
         },
         "metallicRoughnessTexture": {
-          "index": 5
+          "index": 4
         }
       }
     },
     {
       "alphaMode": "OPAQUE",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 11
-      },
       "name": "02_D_Hardware",
       "normalTexture": {
-        "index": 10
+        "index": 8
       },
       "occlusionTexture": {
-        "index": 9
+        "index": 7
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 8
+          "index": 6
         },
         "metallicRoughnessTexture": {
-          "index": 9
+          "index": 7
         }
       }
     },
     {
       "alphaMode": "OPAQUE",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 15
-      },
       "name": "02_D_Interior",
+      "normalTexture": {
+        "index": 11
+      },
+      "occlusionTexture": {
+        "index": 10
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 9
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "name": "02_D_Sill",
       "normalTexture": {
         "index": 14
       },
@@ -541,53 +509,19 @@
     },
     {
       "alphaMode": "OPAQUE",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 19
-      },
-      "name": "02_D_Sill",
-      "normalTexture": {
-        "index": 18
-      },
-      "occlusionTexture": {
-        "index": 17
-      },
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 16
-        },
-        "metallicRoughnessTexture": {
-          "index": 17
-        }
-      }
-    },
-    {
-      "alphaMode": "OPAQUE",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 23
-      },
       "name": "02_D_Spacers",
       "normalTexture": {
-        "index": 22
+        "index": 17
       },
       "occlusionTexture": {
-        "index": 21
+        "index": 16
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 20
+          "index": 15
         },
         "metallicRoughnessTexture": {
-          "index": 21
+          "index": 16
         }
       }
     }
@@ -856,30 +790,6 @@
     {
       "sampler": 0,
       "source": 17
-    },
-    {
-      "sampler": 0,
-      "source": 18
-    },
-    {
-      "sampler": 0,
-      "source": 19
-    },
-    {
-      "sampler": 0,
-      "source": 20
-    },
-    {
-      "sampler": 0,
-      "source": 21
-    },
-    {
-      "sampler": 0,
-      "source": 22
-    },
-    {
-      "sampler": 0,
-      "source": 23
     }
   ]
 }
