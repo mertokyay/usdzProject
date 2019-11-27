@@ -436,7 +436,7 @@
   ],
   "materials": [
     {
-      "alphaMode": "OPAQUE",
+      "alphaMode": "BLEND",
       "emissiveFactor": [
         1.0,
         1.0,
@@ -488,7 +488,7 @@
       }
     },
     {
-      "alphaMode": "OPAQUE",
+      "alphaMode": "BLEND",
       "emissiveFactor": [
         1.0,
         1.0,
@@ -514,7 +514,7 @@
       }
     },
     {
-      "alphaMode": "OPAQUE",
+      "alphaMode": "BLEND",
       "emissiveFactor": [
         1.0,
         1.0,
@@ -540,7 +540,7 @@
       }
     },
     {
-      "alphaMode": "OPAQUE",
+      "alphaMode": "BLEND",
       "emissiveFactor": [
         1.0,
         1.0,
@@ -566,7 +566,7 @@
       }
     },
     {
-      "alphaMode": "OPAQUE",
+      "alphaMode": "BLEND",
       "emissiveFactor": [
         1.0,
         1.0,
