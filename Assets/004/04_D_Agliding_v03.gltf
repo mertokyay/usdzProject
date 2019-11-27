@@ -499,6 +499,9 @@
     },
     {
       "uri": "04_D_Spacer_normal.png"
+    },
+    {
+      "uri": "04_D_Spacer_emissive.png"
     }
   ],
   "materials": [
@@ -660,6 +663,14 @@
     },
     {
       "alphaMode": "OPAQUE",
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 27
+      },
       "name": "04_D_Spacer",
       "normalTexture": {
         "index": 26
@@ -1003,6 +1014,10 @@
     {
       "sampler": 0,
       "source": 26
+    },
+    {
+      "sampler": 0,
+      "source": 27
     }
   ]
 }
