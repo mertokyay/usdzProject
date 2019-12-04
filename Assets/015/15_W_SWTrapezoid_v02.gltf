@@ -105,45 +105,11 @@
     {
       "bufferView": 12,
       "componentType": 5125,
-      "count": 840,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 13,
-      "componentType": 5126,
-      "count": 496,
-      "max": [
-        0.863781750202179,
-        0.769099831581116,
-        -0.0438854359090328
-      ],
-      "min": [
-        -0.791089355945587,
-        -0.829018712043762,
-        -0.0836959034204483
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 14,
-      "componentType": 5126,
-      "count": 496,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 15,
-      "componentType": 5126,
-      "count": 496,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 16,
-      "componentType": 5125,
       "count": 2574,
       "type": "SCALAR"
     },
     {
-      "bufferView": 17,
+      "bufferView": 13,
       "componentType": 5126,
       "count": 1472,
       "max": [
@@ -159,25 +125,25 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 18,
+      "bufferView": 14,
       "componentType": 5126,
       "count": 1472,
       "type": "VEC3"
     },
     {
-      "bufferView": 19,
+      "bufferView": 15,
       "componentType": 5126,
       "count": 1472,
       "type": "VEC2"
     },
     {
-      "bufferView": 20,
+      "bufferView": 16,
       "componentType": 5125,
       "count": 1359,
       "type": "SCALAR"
     },
     {
-      "bufferView": 21,
+      "bufferView": 17,
       "componentType": 5126,
       "count": 961,
       "max": [
@@ -193,15 +159,49 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 22,
+      "bufferView": 18,
       "componentType": 5126,
       "count": 961,
       "type": "VEC3"
     },
     {
-      "bufferView": 23,
+      "bufferView": 19,
       "componentType": 5126,
       "count": 961,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5125,
+      "count": 840,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 496,
+      "max": [
+        0.863781750202179,
+        0.769099831581116,
+        -0.0438854359090328
+      ],
+      "min": [
+        -0.791089355945587,
+        -0.829018712043762,
+        -0.0836959034204483
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 496,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 496,
       "type": "VEC2"
     }
   ],
@@ -283,74 +283,74 @@
     },
     {
       "buffer": 0,
-      "byteLength": 3360,
+      "byteLength": 10296,
       "byteOffset": 501796,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 5952,
-      "byteOffset": 505156,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5952,
-      "byteOffset": 511108,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 3968,
-      "byteOffset": 517060,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 10296,
-      "byteOffset": 521028,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
       "byteLength": 17664,
-      "byteOffset": 531324,
+      "byteOffset": 512092,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 17664,
-      "byteOffset": 548988,
+      "byteOffset": 529756,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 11776,
-      "byteOffset": 566652,
+      "byteOffset": 547420,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 5436,
-      "byteOffset": 578428,
+      "byteOffset": 559196,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 11532,
-      "byteOffset": 583864,
+      "byteOffset": 564632,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 11532,
-      "byteOffset": 595396,
+      "byteOffset": 576164,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 7688,
-      "byteOffset": 606928,
+      "byteOffset": 587696,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3360,
+      "byteOffset": 595384,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5952,
+      "byteOffset": 598744,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5952,
+      "byteOffset": 604696,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3968,
+      "byteOffset": 610648,
       "target": 34962
     }
   ],
@@ -639,7 +639,7 @@
       ]
     },
     {
-      "name": "15_W_Spacers",
+      "name": "15_W_White",
       "primitives": [
         {
           "attributes": {
@@ -648,21 +648,6 @@
             "TEXCOORD_0": 15
           },
           "indices": 12,
-          "material": 4,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "15_W_White",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 18,
-            "POSITION": 17,
-            "TEXCOORD_0": 19
-          },
-          "indices": 16,
           "material": 5,
           "mode": 4
         }
@@ -673,12 +658,27 @@
       "primitives": [
         {
           "attributes": {
+            "NORMAL": 18,
+            "POSITION": 17,
+            "TEXCOORD_0": 19
+          },
+          "indices": 16,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "15_W_Spacers",
+      "primitives": [
+        {
+          "attributes": {
             "NORMAL": 22,
             "POSITION": 21,
             "TEXCOORD_0": 23
           },
           "indices": 20,
-          "material": 1,
+          "material": 4,
           "mode": 4
         }
       ]
@@ -740,31 +740,31 @@
       "children": [
         8
       ],
-      "name": "15_W_Spacers"
+      "name": "15_W_White"
     },
     {
       "mesh": 3,
-      "name": "15_W_Spacers"
+      "name": "15_W_White"
     },
     {
       "children": [
         10
       ],
-      "name": "15_W_White"
+      "name": "15_W_Fibrex"
     },
     {
       "mesh": 4,
-      "name": "15_W_White"
+      "name": "15_W_Fibrex"
     },
     {
       "children": [
         12
       ],
-      "name": "15_W_Fibrex"
+      "name": "15_W_Spacers"
     },
     {
       "mesh": 5,
-      "name": "15_W_Fibrex"
+      "name": "15_W_Spacers"
     }
   ],
   "samplers": [
