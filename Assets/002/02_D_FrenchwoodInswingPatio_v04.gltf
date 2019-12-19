@@ -105,45 +105,11 @@
     {
       "bufferView": 12,
       "componentType": 5125,
-      "count": 9405,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 13,
-      "componentType": 5126,
-      "count": 5189,
-      "max": [
-        0.875375866889954,
-        0.999388575553894,
-        0.0545259565114975
-      ],
-      "min": [
-        -0.87501186132431,
-        -0.995917677879333,
-        -0.0571432150900364
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 14,
-      "componentType": 5126,
-      "count": 5189,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 15,
-      "componentType": 5126,
-      "count": 5189,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 16,
-      "componentType": 5125,
       "count": 36570,
       "type": "SCALAR"
     },
     {
-      "bufferView": 17,
+      "bufferView": 13,
       "componentType": 5126,
       "count": 12406,
       "max": [
@@ -159,27 +125,27 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 18,
+      "bufferView": 14,
       "componentType": 5126,
       "count": 12406,
       "type": "VEC3"
     },
     {
-      "bufferView": 19,
+      "bufferView": 15,
       "componentType": 5126,
       "count": 12406,
       "type": "VEC2"
     },
     {
-      "bufferView": 20,
+      "bufferView": 16,
       "componentType": 5125,
       "count": 9894,
       "type": "SCALAR"
     },
     {
-      "bufferView": 21,
+      "bufferView": 17,
       "componentType": 5126,
-      "count": 6176,
+      "count": 6175,
       "max": [
         0.875011444091797,
         0.999999761581421,
@@ -193,15 +159,49 @@
       "type": "VEC3"
     },
     {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 6175,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 6175,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5125,
+      "count": 10773,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 4610,
+      "max": [
+        0.875375866889954,
+        0.999388575553894,
+        0.0545259565114975
+      ],
+      "min": [
+        -0.87501186132431,
+        -0.995917677879333,
+        -0.0571432150900364
+      ],
+      "type": "VEC3"
+    },
+    {
       "bufferView": 22,
       "componentType": 5126,
-      "count": 6176,
+      "count": 4610,
       "type": "VEC3"
     },
     {
       "bufferView": 23,
       "componentType": 5126,
-      "count": 6176,
+      "count": 4610,
       "type": "VEC2"
     }
   ],
@@ -283,80 +283,80 @@
     },
     {
       "buffer": 0,
-      "byteLength": 37620,
+      "byteLength": 146280,
       "byteOffset": 106032,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 62268,
-      "byteOffset": 143652,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 62268,
-      "byteOffset": 205920,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 41512,
-      "byteOffset": 268188,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 146280,
-      "byteOffset": 309700,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
       "byteLength": 148872,
-      "byteOffset": 455980,
+      "byteOffset": 252312,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 148872,
-      "byteOffset": 604852,
+      "byteOffset": 401184,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 99248,
-      "byteOffset": 753724,
+      "byteOffset": 550056,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 39576,
-      "byteOffset": 852972,
+      "byteOffset": 649304,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 74112,
-      "byteOffset": 892548,
+      "byteLength": 74100,
+      "byteOffset": 688880,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 74112,
-      "byteOffset": 966660,
+      "byteLength": 74100,
+      "byteOffset": 762980,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 49408,
-      "byteOffset": 1040772,
+      "byteLength": 49400,
+      "byteOffset": 837080,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43092,
+      "byteOffset": 886480,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 55320,
+      "byteOffset": 929572,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 55320,
+      "byteOffset": 984892,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36880,
+      "byteOffset": 1040212,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1090180,
+      "byteLength": 1077092,
       "uri": "02_D_FrenchwoodInswingPatio_v04.bin"
     }
   ],
@@ -639,7 +639,7 @@
       ]
     },
     {
-      "name": "02_D_Interior",
+      "name": "02_D_Hardware",
       "primitives": [
         {
           "attributes": {
@@ -648,21 +648,6 @@
             "TEXCOORD_0": 15
           },
           "indices": 12,
-          "material": 3,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "02_D_Hardware",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 18,
-            "POSITION": 17,
-            "TEXCOORD_0": 19
-          },
-          "indices": 16,
           "material": 2,
           "mode": 4
         }
@@ -673,12 +658,27 @@
       "primitives": [
         {
           "attributes": {
+            "NORMAL": 18,
+            "POSITION": 17,
+            "TEXCOORD_0": 19
+          },
+          "indices": 16,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "02_D_Interior",
+      "primitives": [
+        {
+          "attributes": {
             "NORMAL": 22,
             "POSITION": 21,
             "TEXCOORD_0": 23
           },
           "indices": 20,
-          "material": 0,
+          "material": 3,
           "mode": 4
         }
       ]
@@ -740,31 +740,31 @@
       "children": [
         8
       ],
-      "name": "02_D_Interior"
+      "name": "02_D_Hardware"
     },
     {
       "mesh": 3,
-      "name": "02_D_Interior"
+      "name": "02_D_Hardware"
     },
     {
       "children": [
         10
       ],
-      "name": "02_D_Hardware"
+      "name": "02_D_Exterior"
     },
     {
       "mesh": 4,
-      "name": "02_D_Hardware"
+      "name": "02_D_Exterior"
     },
     {
       "children": [
         12
       ],
-      "name": "02_D_Exterior"
+      "name": "02_D_Interior"
     },
     {
       "mesh": 5,
-      "name": "02_D_Exterior"
+      "name": "02_D_Interior"
     }
   ],
   "samplers": [
