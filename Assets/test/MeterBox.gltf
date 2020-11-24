@@ -1,0 +1,153 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v3.1.243586452)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1742,
+            "type": "VEC3",
+            "max": [
+                0.4917365312576294,
+                1.000000238418579,
+                0.5240750908851624
+            ],
+            "min": [
+                -0.5082634687423706,
+                5.960464477539063e-8,
+                -0.5000001788139343
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1742,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1742,
+            "type": "VEC2",
+            "max": [
+                0.9828475117683411,
+                0.9849755764007568
+            ],
+            "min": [
+                0.01307926420122385,
+                0.009268343448638916
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 4836,
+            "type": "SCALAR",
+            "max": [
+                1741.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 65416,
+            "uri": "MeterBox.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 20904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 20904,
+            "byteLength": 20904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 41808,
+            "byteLength": 13936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 55744,
+            "byteLength": 9672,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "MeterBox",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.08627451211214066,
+                    0.38431376218795779,
+                    0.9294118285179138,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "MeterBox",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "MeterBox",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
