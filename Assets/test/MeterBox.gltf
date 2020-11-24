@@ -13,12 +13,12 @@
             "max": [
                 0.4917365312576294,
                 1.000000238418579,
-                0.5240750908851624
+                0.5240751504898071
             ],
             "min": [
                 -0.5082634687423706,
                 5.960464477539063e-8,
-                -0.5000001788139343
+                -0.5000001192092896
             ]
         },
         {
@@ -99,17 +99,33 @@
             "target": 34963
         }
     ],
+    "images": [
+        {
+            "uri": "MeterBox_baseColor.png"
+        },
+        {
+            "uri": "MeterBox_occlusionRoughnessMetallic.png"
+        },
+        {
+            "uri": "MeterBox_normal.png"
+        }
+    ],
     "materials": [
         {
             "name": "MeterBox",
             "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    0.08627451211214066,
-                    0.38431376218795779,
-                    0.9294118285179138,
-                    1.0
-                ],
-                "metallicFactor": 0.0
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 1
             }
         }
     ],
@@ -139,7 +155,19 @@
         },
         {
             "name": "MeterBox",
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "MeterBox_node",
             "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9985
         }
     ],
     "scenes": [
@@ -147,6 +175,20 @@
             "nodes": [
                 0
             ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 0
+        },
+        {
+            "source": 2,
+            "sampler": 0
         }
     ],
     "scene": 0
