@@ -1,171 +1,181 @@
 {
-    "asset": {
-        "version": "2.0",
-        "generator": "Open Asset Import Library (assimp v3.1.243586452)"
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 12096,
+      "type": "SCALAR"
     },
-    "accessors": [
-        {
-            "bufferView": 0,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 2374,
-            "type": "VEC3",
-            "max": [
-                0.16610956192016602,
-                0.09676788747310639,
-                0.15240943431854249
-            ],
-            "min": [
-                -0.14515183866024018,
-                -0.09676788747310639,
-                7.450580596923828e-9
-            ]
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2374,
+      "max": [
+        0.166109547019005,
+        0.0967678874731064,
+        0.152409434318542
+      ],
+      "min": [
+        -0.14515183866024,
+        -0.0967678874731064,
+        7.45058059692383e-09
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2374,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2374,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48384,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28488,
+      "byteOffset": 48384,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28488,
+      "byteOffset": 76872,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18992,
+      "byteOffset": 105360,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 124352,
+      "uri": "Teapot.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Teapot_baseColor.png"
+    },
+    {
+      "uri": "Teapot_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Teapot_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Teapot",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
         },
-        {
-            "bufferView": 1,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 2374,
-            "type": "VEC3",
-            "max": [
-                0.99940025806427,
-                0.9999986886978149,
-                1.0
-            ],
-            "min": [
-                -0.9995757341384888,
-                -0.9999986886978149,
-                -1.0
-            ]
-        },
-        {
-            "bufferView": 2,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 2374,
-            "type": "VEC2",
-            "max": [
-                2.0,
-                1.0
-            ],
-            "min": [
-                0.0,
-                -1.0
-            ]
-        },
-        {
-            "bufferView": 3,
-            "byteOffset": 0,
-            "componentType": 5123,
-            "count": 12096,
-            "type": "SCALAR",
-            "max": [
-                2373.0
-            ],
-            "min": [
-                0.0
-            ]
+        "metallicRoughnessTexture": {
+          "index": 1
         }
-    ],
-    "buffers": [
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Teapot001",
+      "primitives": [
         {
-            "byteLength": 100160,
-            "uri": "Teapot.bin"
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
         }
-    ],
-    "bufferViews": [
-        {
-            "buffer": 0,
-            "byteOffset": 0,
-            "byteLength": 28488,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 28488,
-            "byteLength": 28488,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 56976,
-            "byteLength": 18992,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 75968,
-            "byteLength": 24192,
-            "target": 34963
-        }
-    ],
-    "materials": [
-        {
-            "name": "DefaultMaterial",
-            "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    1.0
-                ],
-                "metallicFactor": 0.0
-            }
-        }
-    ],
-    "meshes": [
-        {
-            "name": "Teapot001",
-            "primitives": [
-                {
-                    "mode": 4,
-                    "material": 0,
-                    "indices": 3,
-                    "attributes": {
-                        "POSITION": 0,
-                        "NORMAL": 1,
-                        "TEXCOORD_0": 2
-                    }
-                }
-            ]
-        }
-    ],
-    "nodes": [
-        {
-            "name": "RootNode",
-            "children": [
-                1
-            ]
-        },
-        {
-            "name": "Teapot001",
-            "matrix": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                6.123234262925839e-17,
-                -1.0,
-                0.0,
-                0.0,
-                1.0,
-                6.123234262925839e-17,
-                0.0,
-                0.0003521447069942951,
-                0.0,
-                -0.000036828216252615678,
-                1.0
-            ],
-            "mesh": 0
-        }
-    ],
-    "scenes": [
-        {
-            "nodes": [
-                0
-            ]
-        }
-    ],
-    "scene": 0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Teapot001",
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "translation": [
+        0.000352144706994295,
+        0.0,
+        -3.68282162526157e-05
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Teapot001"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
 }
