@@ -8,59 +8,59 @@
             "bufferView": 0,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 1742,
+            "count": 2374,
             "type": "VEC3",
             "max": [
-                49.1533317565918,
-                99.95869445800781,
-                52.385868072509769
+                0.5232127904891968,
+                0.30480000376701357,
+                0.48006004095077517
             ],
             "min": [
-                -50.80533981323242,
-                0.00000762939453125,
-                -49.979347229003909
+                -0.45719999074935915,
+                -0.30480000376701357,
+                0.0
             ]
         },
         {
             "bufferView": 1,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 1742,
+            "count": 2374,
             "type": "VEC3",
             "max": [
-                0.9999999403953552,
-                1.0,
-                0.9999999403953552
+                0.9994003176689148,
+                0.9999988079071045,
+                1.0
             ],
             "min": [
-                -0.9999999403953552,
-                -0.9999999403953552,
-                -0.9999999403953552
+                -0.9995757341384888,
+                -0.9999988079071045,
+                -1.0
             ]
         },
         {
             "bufferView": 2,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 1742,
+            "count": 2374,
             "type": "VEC2",
             "max": [
-                0.9828475117683411,
-                0.9849755764007568
+                2.0,
+                1.0
             ],
             "min": [
-                0.01307926420122385,
-                0.009268343448638916
+                0.0,
+                -1.0
             ]
         },
         {
             "bufferView": 3,
             "byteOffset": 0,
             "componentType": 5123,
-            "count": 4836,
+            "count": 12096,
             "type": "SCALAR",
             "max": [
-                1741.0
+                2373.0
             ],
             "min": [
                 0.0
@@ -69,44 +69,44 @@
     ],
     "buffers": [
         {
-            "byteLength": 65416,
-            "uri": "MeterBox.bin"
+            "byteLength": 100160,
+            "uri": "Teapot.bin"
         }
     ],
     "bufferViews": [
         {
             "buffer": 0,
             "byteOffset": 0,
-            "byteLength": 20904,
+            "byteLength": 28488,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 20904,
-            "byteLength": 20904,
+            "byteOffset": 28488,
+            "byteLength": 28488,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 41808,
-            "byteLength": 13936,
+            "byteOffset": 56976,
+            "byteLength": 18992,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 55744,
-            "byteLength": 9672,
+            "byteOffset": 75968,
+            "byteLength": 24192,
             "target": 34963
         }
     ],
     "materials": [
         {
-            "name": "MeterBox",
+            "name": "DefaultMaterial",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
-                    0.08627451211214066,
-                    0.38431376218795779,
-                    0.9294118285179138,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
                     1.0
                 ],
                 "metallicFactor": 0.0
@@ -115,7 +115,7 @@
     ],
     "meshes": [
         {
-            "name": "MeterBox",
+            "name": "Teapot001",
             "primitives": [
                 {
                     "mode": 4,
@@ -138,7 +138,25 @@
             ]
         },
         {
-            "name": "MeterBox",
+            "name": "Teapot001",
+            "matrix": [
+                0.6349110007286072,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                3.8877085125853377e-17,
+                -0.6349110007286072,
+                0.0,
+                0.0,
+                0.6349110007286072,
+                3.8877085125853377e-17,
+                0.0,
+                0.0003521447069942951,
+                0.0,
+                -0.00003682821989059448,
+                1.0
+            ],
             "mesh": 0
         }
     ],
