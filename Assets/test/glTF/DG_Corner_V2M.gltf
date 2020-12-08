@@ -395,9 +395,6 @@
       "uri": "DG_Corner_V2_normal.png"
     },
     {
-      "uri": "DG_Corner_V2_emissive.png"
-    },
-    {
       "uri": "DG_Glass_Edges_baseColor.png"
     },
     {
@@ -417,9 +414,6 @@
     },
     {
       "uri": "DG_Spacer_normal.png"
-    },
-    {
-      "uri": "DG_Spacer_emissive.png"
     }
   ],
   "materials": [
@@ -476,15 +470,7 @@
       }
     },
     {
-      "alphaMode": "BLEND",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 11
-      },
+      "alphaMode": "OPAQUE",
       "name": "DG_Corner_V2",
       "normalTexture": {
         "index": 10
@@ -509,47 +495,39 @@
         1.0
       ],
       "emissiveTexture": {
-        "index": 15
+        "index": 14
       },
       "name": "DG_Glass_Edges",
       "normalTexture": {
-        "index": 14
+        "index": 13
       },
       "occlusionTexture": {
-        "index": 13
+        "index": 12
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 12
+          "index": 11
         },
         "metallicRoughnessTexture": {
-          "index": 13
+          "index": 12
         }
       }
     },
     {
-      "alphaMode": "BLEND",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 19
-      },
+      "alphaMode": "OPAQUE",
       "name": "DG_Spacer",
       "normalTexture": {
-        "index": 18
+        "index": 17
       },
       "occlusionTexture": {
-        "index": 17
+        "index": 16
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 16
+          "index": 15
         },
         "metallicRoughnessTexture": {
-          "index": 17
+          "index": 16
         }
       }
     }
@@ -874,14 +852,6 @@
     {
       "sampler": 0,
       "source": 17
-    },
-    {
-      "sampler": 0,
-      "source": 18
-    },
-    {
-      "sampler": 0,
-      "source": 19
     }
   ]
 }
